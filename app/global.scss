@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: green;
+    height: 5vh;
+    li {
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+footer {
+  background: green;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

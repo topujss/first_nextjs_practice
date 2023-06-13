@@ -1,0 +1,19 @@
+.about_menu {
+  h1 {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+  }
+}
+
+h1 {
+  a {
+    background: yellowgreen;
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      color: red;
+    }
+  }
+}
